@@ -1,0 +1,78 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background-image: url(https://wallpapercave.com/wp/wp5179757.jpg);
+  /* background-image: url(https://wallpapercave.com/wp/wp6685088.jpg); */
+  color: rgb(33, 2, 64);
+  font-size: 25px;
+}
+.container {
+  margin: auto;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#time {
+  margin: 4rem 0;
+  text-shadow: 5px 5px 5px rgb(191, 153, 228);
+}
+#time * {
+  font-size: 6rem;
+  color: rgb(33, 2, 64);
+  text-shadow: 6px 6px 6px rgb(191, 153, 228);
+}
+#buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  font-family: inherit;
+  background-color: rgb(33, 2, 64);
+  text-shadow: 2px 2px 2px rgb(191, 153, 228);
+  color: rgb(191, 153, 228);
+  outline: 3px solid rgb(33, 2, 64);
+  outline-offset: 0.2rem;
+  cursor: pointer;
+}
+.stop {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.5);
+  outline: 3px solid rgb(255, 0, 0, 0.5);
+}
+#laps_wrapper {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.lap {
+  font-size: 1.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 3px solid rgb(33, 2, 64);
+  padding: 1rem 0;
+}
+.lap_num {
+  font-weight: 800;
+  text-shadow: 2px 2px 2px rgb(191, 153, 228);
+}
+.lap_time {
+  font-weight: 800;
+  text-shadow: 2px 2px 2px rgb(191, 153, 228);
+}
